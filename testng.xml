@@ -5,7 +5,21 @@
         <classes>
             <class name="testCases.SignUp">
                 <methods>
-                    <include name="openPage"/>
+                    <include name="Register_User"/>
+                </methods>
+            </class>
+
+            <class name="testCases.Login">
+                <methods>
+                    <include name="Login_with_invalid_data"/>
+                    <include name="Login_with_valid_data"/>
+                </methods>
+            </class>
+
+            <class name="testCases.ContactDetails">
+                <methods>
+                    <include name="validate_info_for_estonia"/>
+                    <include name="validate_info_for_poland"/>
                 </methods>
             </class>
         </classes>
